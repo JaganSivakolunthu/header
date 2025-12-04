@@ -20,4 +20,16 @@ typedef struct can_frame{
 	u32 byteB;
 } can_msg;
 
+void delay_ms(u32 );
+void LCD_INIT(void);
+void LCD_COMMAND(u8 );
+void LCD_DATA(u8 );
+void LCD_STRING(const u8 *);
+void LCD_INTEGER(s32 );
+void LCD_FLOAT(f32 );
+void LCD_BINARY(u32 );
+
 #endif
+
+
+
