@@ -1,5 +1,5 @@
 #include"header.h"
-#include"delay.h"
+//#include"delay.h"
 
 void LCD_INIT(void)
 {
