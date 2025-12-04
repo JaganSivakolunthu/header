@@ -1,4 +1,4 @@
-//include<stdio.h>	//if sprintf() is included
+//#include <stdio.h>	//if sprintf() is included
 #include "header.h"
 #include "lcd.h"
 
