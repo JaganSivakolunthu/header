@@ -1,5 +1,6 @@
 //include<stdio.h>	//if sprintf() is included
-#include"header.h"
+#include "header.h"
+#include "lcd.h"
 
 void LCD_STRING(const u8 *ptr)
 {
