@@ -11,4 +11,15 @@ typedef signed int s32;
 
 typedef float f32;
 
+//if CAN include, the below lines
+/*
+typedef struct {
+    u32 m_id;
+    u32 rtr;
+    u32 dlc;
+    u32 byteA;
+    u32 byteB;
+} can_msg;
+*/
+
 #endif
