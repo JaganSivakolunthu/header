@@ -2,6 +2,7 @@
 //#include <stdio.h>	//if sprintf() is included
 #include <lpc21xx.h>
 #include "lcd.h"
+#include "delay.h"
 
 void LCD_INIT(void)
 {
@@ -110,11 +111,4 @@ void LCD_BINARY(s32 num)
     } 
 }
 
-void delay_ms(u32 ms)
-{
-	T0PR = 15000 -1 ;
-	T0TCR = 0x01;
-	while(T0TC<ms);
-	T0TCR = 0x03;
-	T0TCR = 0x00;
-}
+
